@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Registro de funcionários - Novo</title>
+<link rel="icon" href="imagens/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Cadastrar novo funcionário</h1>
+	<form name="frmFuncionario" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="pais" placeholder="País" class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="estado" placeholder="Estado" class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="cidade" placeholder="Cidade" class="Caixa1"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="Botao1" onclick="validar()">
+	</form>
+<script src="scripts/validador.js"></script>
+</body>
+</html>
